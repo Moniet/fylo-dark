@@ -51,7 +51,8 @@ const P = styled.p`
     color: white;
     margin: 0 auto 2em auto;
     width: 75%;
-    ${mq[0]} {
+
+    ${mq[1]} {
         font-size: 1em;
         width: 100%;
     }
