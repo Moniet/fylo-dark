@@ -23,6 +23,15 @@ const InfoContainer = styled.div`
     text-align: center;
     z-index: 10;
 
+    
+    ${mq[2]} { 
+        width: 70%; 
+    }
+
+    ${mq[1]} { 
+        width: 70%; 
+    }
+
     ${mq[0]} { 
         width: 85%; 
         margin-bottom: -70%;
@@ -57,6 +66,13 @@ const Button = styled.button`
     font-weight: 700;
     color: white;
     background: ${colors.btnGradient};
+
+    ${mq[2]} {
+        width: 50%;
+    }
+
+    ${mq[1]} {
+        width: 55%;
 
     ${mq[0]} {
         width: 80%;
