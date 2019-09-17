@@ -42,9 +42,14 @@ const Card = styled.div`
     ${'' /* box-shadow: 5px 5px rgba(255,255,255,0.1); */}
     z-index: 10;
 
+    @media (max-width: 840px) {
+        width: calc(50% - 1em);
+        margin-bottom: 2em;
+    }
+    
+
     ${mq[0]} {
         width: 100%;
-        margin-bottom: 2em;
         padding: 2em 1.5em;
     }
 `
