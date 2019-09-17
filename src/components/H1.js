@@ -8,6 +8,9 @@ const H1 = styled.h1`
     line-height: 1.25;
     margin-bottom: 0.5em;
     color: white;
+    @media (max-width: 740px) {
+        font-size: 2em;
+    }
     ${mq[0]} {
         font-size: 1.25em;
     }

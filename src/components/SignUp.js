@@ -19,6 +19,11 @@ const Container = styled.div`
     padding: 4em;
     transform: translateY(50%);
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+
+    @media (max-width: 840px) {
+        width: calc(100% - 2em);
+    }
+
     ${mq[0]} {
         width: calc(100% - 2em);
         padding: 2em 1.5em;
@@ -51,6 +56,10 @@ const Form = styled.form`
 
     button {
         width: 30%;
+
+        @media (max-width: 740px) {
+            font-size: 10px;
+        }
 
         ${mq[0]} {
             width: 100%;

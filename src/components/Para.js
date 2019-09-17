@@ -8,6 +8,11 @@ const Para = styled.p`
     line-height: 1.5;
     color: white;
     margin-bottom: 1em;
+    
+    @media (max-width: 740px) {
+        font-size: 1em;
+    }
+
     ${mq[0]} {
         font-size: 0.85em;
     }
